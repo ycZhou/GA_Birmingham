@@ -1,0 +1,29 @@
+### BCGA Execution with supplied scripts ###
+
+For local execution in serial:
+ - Set location to "LOCAL" within "run100" script file
+ - Execute "run100" as normal script (./run100)
+
+For BlueBEAR execution in serial:
+ - Set location to "LOCAL" within "run100" script file
+ - Submit "bluebear.script" to queue (qsub bluebear.script)
+
+For BlueBEAR execution in psuedo-parallel:
+ - Set location to "BLUEBEAR" within "run100" script file
+ - ensure ppn=1 in bluebear.script
+ - Execute "run100" as normal script (./run100)
+ - Each GA run will be submitted to queue seperately
+
+For Hypatia execution in serial:
+ - Set location to "LOCAL" within "run100" script file
+ - Submit "hypatia.script" to queue (qsub hypatia.script)
+
+For Hypatia execution in psuedo-parallel:
+ - Set location to "HYPATIA" within "run100" script file
+ - ensure ppn=1 in hypatia.script
+ - Execute "run100" as normal script (./run100)
+ - Each GA run will be submitted to queue seperately
+
+*IMPORTANT FOR PARALLEL LOCAL EXECUTION*
+If run sequentially, the processors requested must be the same in the submission script and in the run100 file (but in all honestly, if we are running on a queue system you should be using the psuedo-parallel, in which don't worry!)
+

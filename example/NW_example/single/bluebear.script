@@ -1,0 +1,21 @@
+#!
+#PBS -l walltime=24:00:00
+#PBS -j oe
+#PBS -l nodes=1:ppn=4
+#PBS -N GA_DFT_Sn2Pb2
+#PBS -m bea
+#PBS -A johnston04
+#PBS -q bball
+
+#ulimit -s unlimited
+
+filename=run100
+cd $PBS_O_WORKDIR
+module load apps/nwchem/
+
+if [ ! -f ${filename} ];
+then
+  echo "Catastrophic Failure. ${filename} does not exist."
+else
+  time ./$filename 
+fi

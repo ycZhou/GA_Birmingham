@@ -1,0 +1,10 @@
+### BCGA Execution with supplied scripts ###
+
+Optimising with the BCGA and NWChem.
+
+This optimises a tiny He-Ne cluster.
+
+Input files:
+input: GA optimisation parameters
+DFT_NW.in: The force field file (specifies the use of NWChem for energy calculations)
+DFT.nw: An NWChem input file, with the coordinates block replaced with the line BCGAcoords.

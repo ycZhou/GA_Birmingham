@@ -1,0 +1,9 @@
+natoms=8
+DFT_QE.in
+nclust=10
+ngen=400
+nels=1
+term=5
+restart
+file=Cu8.1
+seed=6891

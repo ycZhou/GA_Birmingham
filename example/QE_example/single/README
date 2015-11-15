@@ -1,0 +1,6 @@
+in this directory is the result of a QE job run for a copper-silver cluster of 8 atoms, run on hector, as a restart from a previous job (note the restart flag in run100 = 1).
+
+The actual QE input and output files produced during the calculation are contained in the tar file.
+
+CJH 04-12-12
+cjh085@bham.ac.uk

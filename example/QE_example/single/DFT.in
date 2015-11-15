@@ -1,0 +1,35 @@
+&CONTROL
+     calculation  = "relax",
+     prefix       = "Cu7Ag1_1_11",
+     pseudo_dir   = " . ",
+     outdir       = "tmp",
+     etot_conv_thr=  1.0D-4,
+     forc_conv_thr=  ,
+     disk_io      = "none",
+     nstep        =  ,
+/
+&SYSTEM
+     ibrav        =  0,
+     nat          =  8,
+     ntyp         =  2,
+     ecutwfc      =  50.D0,
+     occupations  = "",
+     smearing     = "",
+     degauss      =  ,
+     tot_charge     =,
+/
+&ELECTRONS
+     electron_maxstep = ,
+     conv_thr     =  1.D-7,
+     mixing_beta  =  ,
+/
+&IONS
+/
+CELL_PARAMETERS cubic
+BCGAcell
+ATOMIC_SPECIES
+Cu   63.55  Cu.pbe-d-rrkjus.upf
+Ag  107.90  Ag.pbe-d-rrkjus.upf
+ATOMIC_POSITIONS {bohr}
+BCGAcoords
+K_POINTS {Gamma}

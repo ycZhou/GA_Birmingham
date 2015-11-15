@@ -1,0 +1,269 @@
+
+Read input file : input_3
+
+Input OK, continuing with GA run
+
+Using Gupta Potential
+Number of atoms of type a =  10
+Number of atoms of type b =  10
+Restarting from previous coordinates 
+Number of clusters =  10
+Number of generations = 400
+Seed number = ***
+Using DEFAULT value for number of offspring of 0.8*nclust =  8
+Using DEFAULT mutation scheme 2
+Using DEFAULT value for mutation rate of 0.10
+GA will terminate if no change in population over   5 generations
+Using DEFAULT of roulette wheel selection
+Using tanh fitness relationship by DEFAULT
+Using 2 point crossover about random points
+Using DEFAULT mutation by cluster replacement
+Using mutation exchange coupled in...
+Using DEFAULT mutation exchange of   6 atom swaps
+Using mutate exhange rate probability of 0.40
+Writing output to files named : Pd10Au10_3
+ Reading coordinates from restart file
+ Generation :   0
+ Lowest Energy  =    -66.701534
+ Highest Energy =    -66.218175
+ Average Energy =    -66.424947
+
+ Generation :   1
+ Lowest Energy  =    -66.808794
+ Highest Energy =    -66.413588
+ Average Energy =    -66.579913
+
+ Generation :   2
+ Lowest Energy  =    -66.813144
+ Highest Energy =    -66.594269
+ Average Energy =    -66.705630
+
+ Generation :   3
+ Lowest Energy  =    -66.813144
+ Highest Energy =    -66.650080
+ Average Energy =    -66.732213
+
+ Generation :   4
+ Lowest Energy  =    -66.889610
+ Highest Energy =    -66.712136
+ Average Energy =    -66.780313
+
+ Generation :   5
+ Lowest Energy  =    -66.889610
+ Highest Energy =    -66.750151
+ Average Energy =    -66.826195
+
+ Generation :   6
+ Lowest Energy  =    -66.889610
+ Highest Energy =    -66.808794
+ Average Energy =    -66.848174
+
+ Generation :   7
+ Lowest Energy  =    -66.914135
+ Highest Energy =    -66.826661
+ Average Energy =    -66.875301
+
+ Generation :   8
+ Lowest Energy  =    -66.914135
+ Highest Energy =    -66.853075
+ Average Energy =    -66.880673
+
+ Generation :   9
+ Lowest Energy  =    -66.914135
+ Highest Energy =    -66.860387
+ Average Energy =    -66.886309
+
+ Generation :  10
+ Lowest Energy  =    -66.914135
+ Highest Energy =    -66.880384
+ Average Energy =    -66.892509
+
+ Generation :  11
+ Lowest Energy  =    -66.938940
+ Highest Energy =    -66.887756
+ Average Energy =    -66.902166
+
+ Generation :  12
+ Lowest Energy  =    -66.944149
+ Highest Energy =    -66.889610
+ Average Energy =    -66.907805
+
+ Generation :  13
+ Lowest Energy  =    -66.944149
+ Highest Energy =    -66.891692
+ Average Energy =    -66.920645
+
+ Generation :  14
+ Lowest Energy  =    -66.953248
+ Highest Energy =    -66.914135
+ Average Energy =    -66.932579
+
+ Generation :  15
+ Lowest Energy  =    -66.953248
+ Highest Energy =    -66.914135
+ Average Energy =    -66.932579
+
+ Generation :  16
+ Lowest Energy  =    -66.960668
+ Highest Energy =    -66.914135
+ Average Energy =    -66.937232
+
+ Generation :  17
+ Lowest Energy  =    -66.982157
+ Highest Energy =    -66.938940
+ Average Energy =    -66.954904
+
+ Generation :  18
+ Lowest Energy  =    -66.982157
+ Highest Energy =    -66.938940
+ Average Energy =    -66.958663
+
+ Generation :  19
+ Lowest Energy  =    -67.008497
+ Highest Energy =    -66.944149
+ Average Energy =    -66.967271
+
+ Generation :  20
+ Lowest Energy  =    -67.008497
+ Highest Energy =    -66.953248
+ Average Energy =    -66.973519
+
+ Generation :  21
+ Lowest Energy  =    -67.008497
+ Highest Energy =    -66.976535
+ Average Energy =    -66.984167
+
+ Generation :  22
+ Lowest Energy  =    -67.008497
+ Highest Energy =    -66.976535
+ Average Energy =    -66.984167
+
+ Generation :  23
+ Lowest Energy  =    -67.008497
+ Highest Energy =    -66.976535
+ Average Energy =    -66.990560
+
+ Generation :  24
+ Lowest Energy  =    -67.008497
+ Highest Energy =    -66.976535
+ Average Energy =    -66.993756
+
+ Generation :  25
+ Lowest Energy  =    -67.008497
+ Highest Energy =    -66.976535
+ Average Energy =    -66.996952
+
+ Generation :  26
+ Lowest Energy  =    -67.023060
+ Highest Energy =    -66.982157
+ Average Energy =    -67.007320
+
+ Generation :  27
+ Lowest Energy  =    -67.023060
+ Highest Energy =    -67.008497
+ Average Energy =    -67.011410
+
+ Generation :  28
+ Lowest Energy  =    -67.023060
+ Highest Energy =    -67.008497
+ Average Energy =    -67.012866
+
+ Generation :  29
+ Lowest Energy  =    -67.023256
+ Highest Energy =    -67.008497
+ Average Energy =    -67.014342
+
+ Generation :  30
+ Lowest Energy  =    -67.023256
+ Highest Energy =    -67.008497
+ Average Energy =    -67.014342
+
+ Generation :  31
+ Lowest Energy  =    -67.023256
+ Highest Energy =    -67.008497
+ Average Energy =    -67.014342
+
+ Generation :  32
+ Lowest Energy  =    -67.023256
+ Highest Energy =    -67.008497
+ Average Energy =    -67.017274
+
+ Generation :  33
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.023060
+ Average Energy =    -67.023557
+
+ Generation :  34
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.023060
+ Average Energy =    -67.023557
+
+ Generation :  35
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.023060
+ Average Energy =    -67.023557
+
+ Generation :  36
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.023060
+ Average Energy =    -67.024472
+
+ Generation :  37
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.023060
+ Average Energy =    -67.024472
+
+ Generation :  38
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.023060
+ Average Energy =    -67.024929
+
+ Generation :  39
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.023060
+ Average Energy =    -67.025844
+
+ Generation :  40
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.023060
+ Average Energy =    -67.026302
+
+ Generation :  41
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.023060
+ Average Energy =    -67.026302
+
+ Generation :  42
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.027635
+ Average Energy =    -67.027635
+
+ Generation :  43
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.027635
+ Average Energy =    -67.027635
+
+ Generation :  44
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.027635
+ Average Energy =    -67.027635
+
+ Generation :  45
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.027635
+ Average Energy =    -67.027635
+
+ Generation :  46
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.027635
+ Average Energy =    -67.027635
+
+ Generation :  47
+ Lowest Energy  =    -67.027635
+ Highest Energy =    -67.027635
+ Average Energy =    -67.027635
+
+Convergence on generation:  47
+
+ Writing xyz file ...... 
+

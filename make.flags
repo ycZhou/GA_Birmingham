@@ -1,0 +1,3 @@
+F77 = gfortran 
+FFLAGS = -c -w -O3 -I$(INCLUDE) -fopenmp
+LDFLAGS = -L$(LIBDIR) -lga -fopenmp

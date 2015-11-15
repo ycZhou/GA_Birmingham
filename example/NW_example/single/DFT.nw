@@ -1,0 +1,28 @@
+start
+
+memory total  500 mb
+
+charge 0
+geometry units angstrom noautoz noautosym
+BCGAcoords
+end
+
+basis
+He library 6-31g
+end
+
+dft
+XC b3lyp
+mult 1
+grid fine
+iterations 98
+noio
+noprint "final vectors analysis" multipole
+end
+
+driver
+loose
+maxiter 100
+end
+
+task dft optimize

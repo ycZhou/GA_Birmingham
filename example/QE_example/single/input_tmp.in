@@ -1,0 +1,44 @@
+ &CONTROL
+      calculation  = "relax",
+      prefix       = "Cu7Ag1_5_19",
+      pseudo_dir   = " . ",
+      outdir       = "tmp",
+      etot_conv_thr=  1.0D-4,
+      forc_conv_thr=  1.0D-3,
+      disk_io      = "none",
+      nstep        =  500,
+ /
+ &SYSTEM
+      ibrav        =  0,
+      nat          =  8,
+      ntyp         =  2,
+      ecutwfc      =  50.D0,
+      occupations  = "smearing",
+      smearing     = "mp",
+      degauss      =  0.060,
+      tot_charge     =0,
+ /
+ &ELECTRONS
+      electron_maxstep = 150,
+      conv_thr     =  1.D-7,
+      mixing_beta  =  0.4D0,
+ /
+ &IONS
+ /
+ CELL_PARAMETERS cubic
+ 35.37  0.00  0.00
+  0.00 35.37  0.00
+  0.00  0.00 35.37
+ ATOMIC_SPECIES
+ Cu   63.55  Cu.pbe-d-rrkjus.upf
+ Ag  107.90  Ag.pbe-d-rrkjus.upf
+ ATOMIC_POSITIONS {bohr}
+ Cu   14.80197437  20.16898902  15.36145682
+ Cu   17.16801520  15.71346717  18.93400751
+ Cu   19.67041628  21.72272262  13.05499110
+ Cu   21.38320320  19.75062793  20.63900000
+ Cu   14.55946339  15.07041957  22.60556717
+ Cu   15.28499370  20.78934086  18.83423422
+ Cu   17.53297622  12.55258720  16.25314030
+ Ag   19.67386216  16.51278738  16.56329593
+ K_POINTS {Gamma}

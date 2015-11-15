@@ -1,0 +1,8 @@
+G09			DFT Program
+2                       number of elements
+Bi                      Name element a
+83                      Atomic Number of a
+Au                      Name element b
+79                      Atomic Number of b
+1.d-2                   GA convergence criteria
+3.20                    Mean bond length +10%

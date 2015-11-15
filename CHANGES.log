@@ -1,0 +1,44 @@
+CJH 10/2012
+
+Added across Sven's NWCHEM interface. Not tested yet.  Example is in ga/NW_example
+
+
+
+CJH 05/2012
+
+MIDPLUS  added in minimiser.f for QE, and the associated changes in readDFT.f, writeDFT.f and outputDFT.f routines
+
+Moments Of Inertia (MOI routine)  works correctly now.
+
+
+
+CJH 01/2012
+
+Changes -
+
+Added QE call option to minimiser.f 
+
+Added HectorStuff module (in read_DFT.f), to define required variables read from input file (DFT_QE.IN) and written to the system call string for QE (in minimiser.f) for hector runs.
+
+Extra character flag required at top of DFT_QE.in file, either "BLUEBEAR" or "HECTOR" - used in write_DFT.f to choose whether to write out the scratch dierectory (yes for hector, no for bluebear), and in read_DFT.f to choose whether hector specific variables are read in.
+
+If running a Hector job, the variables 'nproc' (total processors) and 'ntask' (procs per node) are required in the input file, and are after 'r_ab' and before 'openshell' in that file.
+
+
+
+
+
+Changes for version BCGA-08-2011
+
+CJH 09/2011
+
+
+
+
+In minimiser there is a little change to a loop which stops it being infinite (a flag that varies between 0 and 1 used to only exit the loop if flag > 1.  Now fixed)
+
+In write_DFT a one line change - there was no trim on one of the natoms variables, so 1 character atoms, such as O,N,F gave you variables with spaces in them.  Now fixed
+
+In output_DFT changed the "if fexist" bit to "INQUIRE" so that the program now can find the output file, where previously it didn't.   Bit of a strange one that, but it now works.
+
+

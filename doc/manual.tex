@@ -1,0 +1,224 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{amsmath}
+\usepackage{calc}
+
+\newenvironment{entry}[1]
+{\begin{list}{}{\renewcommand{\makelabel}[1]{~~\texttt{##1 :}\hfil}
+      \setlength{\labelwidth}{90pt}
+      \setlength{\leftmargin}{\labelwidth+\labelsep}}}
+{\end{list}}
+
+\begin{document}
+
+\begin{center}
+\LARGE\textbf{Instructions for running the Cluster GA}
+\end{center}
+
+\section{Installation}
+
+Directory structure :
+\begin{entry}{a}
+\item[lib] the compiled libraries are placed here
+\item[source] main ga program source lives here
+\item[bin] executable
+\item[example] example input files
+\end{entry}
+To install the ga, edit the \texttt{make.flags} file to set your compiler
+optins. To build the executable, use the \texttt{make} command.
+\begin{center}
+\texttt{ga} \texttt{<input file>}
+\end{center}
+The input file name can be up to 20 characters in length.
+
+\pagebreak
+
+\section{References}
+Should you use this program in your work, please be as good as to thank the authors for their hours of input to this code. They can be acknowledged with the following references:
+
+\begin{center}
+``Birmingham Cluster Genetic Algorithm (BCGA-2010)'', A. J. Logsdail, B. C. Curley, C. Roberts and R. L. Johnston, University of Birmingham, U.K., \textbf{2010}.
+\end{center}
+
+\begin{center}
+``Evolving better nanoparticles: Genetic Algorithms for Cluster Geometry Optimisation'', R. L. Johnston, \textit{Dalton Trans.}, \textbf{2003}, 4197-4207.
+\end{center}
+
+\pagebreak
+
+\section{The input file}
+
+The input file is a simple text file containing the mandatory and optional input parameters listed below; the parameters can be given in any order. The file can contain multiple entries per line with the parameters separated by one or more spaces, spaces either side of an equals sign are optional. The maximum length of a line is 80 characters.
+
+\noindent A minimal input file for a run of the GA of 10 generations, using morse monometallic clusters of 21 atoms, a population size of 10 clusters, and a random number seed starting value of 5 is given below : ~\\ [1ex]
+
+\texttt{natoms=21}
+
+\texttt{morse}
+
+\texttt{nels=1}
+
+\texttt{ngen=10}
+
+\texttt{nclust=10}
+
+\texttt{seed=5} 
+
+\section{Input parameters}
+
+All parameters are case sensitive.
+
+\subsection{Mandatory input}
+
+You must specify the following variables : \\
+
+\noindent \textbf{The type of potential :}
+\begin{entry}{a}
+\item[morse]
+The morse potential, parameters in the file \texttt{morse.in}
+\item[mm\_... .in]
+The Murrell-Mottram potential, with parameters in the file. Atom labels are defined within the potential file.
+\item[MgO] 
+A rigid ion potential for MgO, parameters in file \texttt{MgO.in}
+\item[ZnO] 
+A rigid ion potential for ZnO, parameters in file \texttt{ZnO.in}
+\item[gupta\_... .in]
+A Gupta potential, with parameters in this file.  Atom labels are defined within the potential file.
+\item[SiO\_TTAM]
+TTAM potential for silica
+\item[SiO\_FB]
+FB potential for silica
+\end{entry}
+
+\noindent \textbf{The number of atoms :} ~\\ [1ex]
+\noindent For single element clusters : 
+\begin{entry}{b}
+\item[natoms = n] with n in the \textbf{range 2-150} atoms
+\end{entry}
+For dual element clusters :
+\begin{entry}{c}
+\item[natoms\_a = na] number of atoms of type a
+\item[natoms\_b = nb] number of atoms of type b, with na+nb in the \textbf{range 2-150} atoms
+\end{entry}
+
+\noindent In all cases here nels must be set to 1 or 2 (e.g. nels = 1)
+
+\noindent \textbf{The number of clusters :}
+\begin{entry}{d}
+\item[nclust = n] the total number of clusters; the number in the population (\texttt{nclust}) plus the number of offspring (\texttt{noff}) must not exceed \textbf{100}. The default number of offspring is approx $0.8\times$\texttt{nclust}.
+\end{entry}
+
+\noindent \textbf{The seed for the random number generator :}
+\begin{entry}{d}
+\item[seed = n] with n equal to any positive integer. Specifies a seed for the random number generator, use different seed numbers for different starting points.
+\end{entry}
+
+\noindent \textbf{The number of generations :}
+\begin{entry}{e}
+\item[ngen = n] with n equal to any positive integer 
+\end{entry}
+
+\subsection{Optional Input Parameters}
+
+The default values are given in square brackets. \\
+
+\noindent \textbf{The number of offspring :}
+\begin{entry}{a}
+\item[noff = n] n is the number of offspring produced per generation. [The default is approx $0.8\times$\texttt{nclust}.]
+\end{entry}
+
+\noindent \textbf{The termination counter :}
+\begin{entry}{a}
+\item[term = n] the GA run will terminate if there is no change in the population over n generations. [The default is n = \texttt{ngen} (no termination).]
+\end{entry} 
+
+\noindent \textbf{A target energy :}
+\begin{entry}{a}
+\item[gmin = x] the GA run will terminate if the lowest energy cluster in the population is within 10$^{-6}$ units of the value x. [This is not enabled by default.]
+\end{entry}
+
+\noindent \textbf{The mutation scheme:}
+\begin{entry}{a}
+\item[mutation\_scheme=n] where n=1 or 2. Mutation scheme 1 mutates the offspring after they are created and before the have their energies minimized. Mutation scheme 2 makes a copy of an offspring cluster or a member of the existing population, and mutates this copy. The energy of the mutated cluster is then minimized.
+\end{entry}
+
+\noindent \textbf{The mutation rate :}
+\begin{entry}{a}
+\item[mrate = x] with x in the range 0.0 to 1.0. The mutation rate is the probability each offspring cluster has of being mutated after mating. [The default value is 0.1.]
+\end{entry}
+
+\noindent \textbf{An alternative file name :}
+\begin{entry}{a}
+\item[file=<filename>] where \texttt{filename} is the alternative output file name. [The default is \texttt{genet000}.]
+\end{entry} 
+
+\noindent \textbf{Gupta Cutoff :}
+\begin{entry}{a}
+\item[cutoff\_gupta] enables a cutoff should you be using a gupta potential. A parameter file named \texttt{cutoff\_parameters} must accompany the program in the working directory. The cutoff parameters are linked to a 5th order polynomial. Please see cutoff.pdf for furth details. [This option is not enabled by default] 
+\end{entry}
+
+\noindent \textbf{Remove clusters of similar energy :}
+\begin{entry}{a} 
+\item[remove\_similar] removes a cluster from the population if its energy is lies within 1.0e-6 units of another cluster. [This is not enabled by default.]
+\end{entry}
+
+\noindent \textbf{High energy mutants :}
+\begin{entry}{a}
+\item[high\_energy\_mutants] adds a mutated cluster to the population, irrespective of its energy, with a probability of $20\%$. [This is not enabled by default.]
+\end{entry}
+
+\noindent \textbf{Selection method :}
+\begin{entry}{a}
+\item[roulette] uses the roulette wheel method to select a pair of parents. A random number, $r$ is generated in the range 0.0 to 1.0, then a cluster is selected at random from the population. The cluster is accepted as a parent if its fitness is greater than the random number $r$. The second cluster is picked in the same manner. Any given cluster cannot be chosen to be both parents. [This is the default selection method.]
+\item[tournament] selects a pair of parents using the tournament method. An additional parameter \texttt{tsize=n}, the size of the tournament must also be specified, with n in the range 2-\texttt{nclust}. The 2 lowest energy clusters from a pool of n clusters, selected at random from the population, are accepted as parents.
+\end{entry}
+
+\noindent \textbf{Fitness type :} ~\\ [1ex]
+The intermediate, $\rho$, used in the fitness calculations is :
+\begin{equation*}
+\rho_{i} = \frac{E_{min}-E_{i}}{E_{max}-E_{min}}
+\end{equation*}
+$E_{max}$ and $E_{min}$ are the energies of highest and lowest energy clusters in the current population. ~\\ [1ex]
+[The default is the tanh function.]
+\begin{entry}{a}
+\item[lin\_fitness] $f_{i}=1-0.8\rho_{i}$
+\item[pow\_fitness] $f_{i}=1-\rho_{i}^{2}$
+\item[exp\_fitness] $f_{i}=exp(\alpha\rho_{i})$, $\alpha=3$
+\item[tanh\_fitness] $f_{i}=0.5\times(1-\tanh(2\rho_{i}-1))$
+\item[cos2\_fitness] $f_{i}=(cos(\alpha\rho_{i}))^{2},\alpha=1.4$
+\end{entry}
+
+\noindent \textbf{Mating type (crossover) :} ~\\ [1ex]
+All the mating routines described below use a variation of the 'cut and splice' method of Deaven and Ho to mate two parents. The parent's coordinates are scaled so that the centre of mass of the cluster is the origin of the coordinate system. Then each cluster is rotated about an axis, generated at random, that passes through the centre of mass. The clusters are then cut about one or two atomic postions and the complentary fragments from each cluster spliced together to form a new cluster. Only one new cluster (offspring) is produced during each mating.
+\begin{entry}{a}
+\item[mate\_1pt\_random] The parent clusters are cut and spliced about a randomly generated atomic position.
+\item[mate\_1pt\_weighted] The splice position is calculated. If roulette selection is being used then the position is based on the fitness values of the parents. (If the selection is by tournament then the position is calculated from the energies of the parents.)
+$n_{pos}=\frac{f_{parent_1}}{f_{parent_1}+f_{parent_2}}$. [This is the default for dual element clusters.]
+\item[mate\_2pt] The parent clusters are cut and spliced about 2 randomly generated positions. Two portions of the offspring come from the first parent and the remaining portion from the second parent. [This is the default for single element clusters.]
+\end{entry}
+
+\noindent \textbf{Mutation type :} ~\\ [1ex]
+Mutations are only applied to newly created clusters before they undergo energy minimisation.
+\begin{entry}{a}
+\item[mutate\_replace] Replaces the entire cluster with a new cluster generated at random. [This is the default.]
+\item[mutate\_rotate] Rotates the top `half' of a cluster by a random angle in the xy plane.
+\item[mutate\_move] Moves approximately $\frac{1}{3}$ of the atoms of the cluster to new positions generated at random. The atoms to be moved are chosen at random.
+\item[mutate\_exchange] Only useful for dual element clusters; this routines exchanges atom types while retaining the same cluster structure. The number of exchanges can be controlled with \texttt{me\_swaps = i} [Default is \texttt{natoms}/3]
+\item[me\_rate = p] Probability (0.0 to 1.0) of performing \texttt{mutate\_exchange} INSTEAD of chosen mutation scheme in bimetallic systems [Default is 0.0]. This allows two types of mutation to occur within one run. The number of exchanges can be controlled with \texttt{me\_swaps = i} [Default is \texttt{natoms}/3] 
+\end{entry}
+
+\noindent \textbf{Output options :} ~\\ [1ex]
+\begin{entry}{a}
+\item[write\_clusters] This option writes out the coordinates of all the clusters in the population at the end of each generation to a file named \texttt{<filename>.clusters}.
+\item[write\_energies] This option writes out the energies of all the clusters in the population at the end of each generation to a file named \texttt{<filename>.energies}.  
+\item[write\_stats] If this option is specified then the number of offspring and mutants accepted into the population during a generation is displayed on standard output and to a file name \texttt{<filename>.stats}.
+\end{entry}
+
+\noindent \textbf{Stand-alone Minimiser} ~\\ [1ex]
+A stand-alone minimiser is included with the program. This can be compiled using the command \texttt{make reopt} in the ga directory. Usage is shown in example folder.
+
+\section{GA-DFT}
+Example input for running the GA-DFT with NWChem or QuantumEspresso is in the
+examples directory.
+
+\end{document}

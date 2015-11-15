@@ -1,0 +1,18 @@
+GPAW			DFT Program
+1                       number of elements
+Bi                      Name element a
+sz			Basis set precision (sz, dzp, tzp, etc. See GPAW Documentation)
+LDA                     ExchangeCorrelation (LDA,PBE,etc.) 
+0.25			Force convergence for optmisation
+0.05                    Mixer Parameters (See GPAW Manual): (1) beta 
+5			(2) nmaxold
+50.0			(3) weight
+256                     Maximum iterations of SCF process
+0.01                    FermiDirac Distribution for near degenerate orbitals
+-12                     Number of Bands in calculation (negative for more unoccupied bands)
+rmm-diis                Eigensolver
+0.01			SCF Convergence: Energy
+0.001			SC Convergence: Density
+1.d-2                   GA convergence criteria
+3.20                    Mean bond length +10%
+0			Unpaired electron? 1 for yes, 0 for no

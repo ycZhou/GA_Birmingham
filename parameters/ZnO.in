@@ -1,0 +1,6 @@
+1.98 ! r_ab
+Zn O ! atom types
++2 -2 ! charges
+700.3d0	0.3372d0 ! B_ab rho_ab
+22764.d0 0.149d0 ! B_bb rho_bb
+1.3d0

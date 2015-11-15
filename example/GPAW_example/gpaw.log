@@ -1,0 +1,7 @@
+
+You need to set the GPAW_SETUP_PATH environment variable to point to
+the directory where the basis set files are stored.  See
+
+  http://wiki.fysik.dtu.dk/gpaw/Setups
+
+for details.

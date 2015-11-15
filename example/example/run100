@@ -1,0 +1,67 @@
+#!/bin/bash
+
+# UPDATE BY ANDREW LOGSDAIL, 2009
+# This bash script has been set up for use with Gupta Potentials, and MM potentials
+# Please refer to manual should you want to use:
+# morse.in, MgO, ZnO, SiO_TTAM, SiO_FB
+
+# 2013 Updated script
+# run100 now takes all search options from the file "input"
+
+#
+#
+# Number of processors we require
+processors=1
+# Hopefully this will deal with segmentation faults in parallel
+#
+# This script file needs an input seed to run
+# Firstly please define if you are running this program on BLUEBEAR, HYPATIA or LOCAL
+location="LOCAL"
+
+# Number of runs
+runfor=5
+
+# Name for output files
+filename="Pd10Au10"
+
+# Hopefully this will deal with segmentation faults in parallel
+# Set stacksize to unlimited
+#ulimit -s unlimited
+
+srand=$RANDOM
+counter=0
+
+
+while [ $counter -lt $runfor ] ; do
+  ((counter=counter+1))
+  par_filename=input_${counter}
+
+  cp input $par_filename
+  echo "file=$filename.$counter" >> $par_filename
+  echo "seed=$srand" >> $par_filename
+
+if [ "$location" =  "LOCAL" ]; then
+
+    ga ${par_filename}  > outs_${counter}
+    #rm -f ${par_filename}
+    echo ${counter}
+
+elif [ "$location" = "HYPATIA" ]; then
+
+#    sed -e "s/run100/ga/g" -e "s/ppn=1/ppn=${processors}/g" -e "s/"'$filename'"/"'${filename}'" ${par_filename}/g" hypatia.script > outs_${counter}.sh 
+    sed -e "s/run100/ga/g" -e "s/"'$filename'"/"'${filename}'" ${par_filename}/g" hypatia.script > outs_${counter}.sh 
+    qsub outs_${counter}.sh
+    rm -f outs_${counter}.sh
+
+elif [ "$location" = "BLUEBEAR" ]; then
+
+#    sed -e "s/run100/ga/g" -e "s/ppn=1/ppn=${processors}/g" -e "s/"'$filename'"/"'${filename}'" ${par_filename}/g" bluebear.script > outs_${counter}.sh
+    sed -e "s/run100/ga/g" -e "s/"'$filename'"/"'${filename}'" ${par_filename}/g" bluebear.script > outs_${counter}.sh
+    qsub outs_${counter}.sh
+    rm -f outs_${counter}.sh
+
+fi
+
+  ((srand=srand+$RANDOM))
+
+done

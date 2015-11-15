@@ -1,0 +1,10 @@
+natoms_a=7
+natoms_b=1
+DFT_QE.in
+nclust=10
+ngen=400
+nels=2
+term=5
+restart
+file=Cu7Ag1.1
+seed=32639

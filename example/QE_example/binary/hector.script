@@ -1,0 +1,22 @@
+#!/bin/bash --login
+#PBS -N ag1cu7
+#PBS -l mppwidth=192
+#PBS -l mppnppn=32
+#PBS -l walltime=24:00:00
+#PBS -A e05-nandef-roy
+
+
+
+filename=run100
+cd $PBS_O_WORKDIR
+module swap PrgEnv-cray PrgEnv-pgi
+module load espresso/4.3.2
+
+export ESPRESSO_TMPDIR=$TMPDIR
+
+if [ ! -f ${filename} ];
+then
+  echo "Catastrophic Failure. ${filename} does not exist."
+else
+  time ./$filename
+fi

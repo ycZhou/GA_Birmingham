@@ -1,0 +1,6 @@
+1.98 ! r_ab
+Mg O ! atom types
++1 -1 ! charges
+821.6d0 0.3242d0 ! B_ab rho_ab
+22764.d0  0.149d0 ! B_bb rho_bb
+1.3d0

@@ -1,0 +1,7 @@
+natoms_a=2
+natoms_b=1
+DFT_NW.in
+nclust=2
+ngen=1
+nels=2
+term=1

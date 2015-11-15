@@ -1,0 +1,5 @@
+#!
+
+potential=gupta_Pd.in
+
+./reopt input.xyz ${potential} output.xyz #cutoff

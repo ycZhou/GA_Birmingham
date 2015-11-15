@@ -1,0 +1,21 @@
+#!
+#PBS -l walltime=240:00:00
+#PBS -j oe
+#PBS -l nodes=6:ppn=4
+#PBS -N GA_DFT_Bi
+#PBS -m bea
+#PBS -A johnston01
+#PBS -q bball
+
+#ulimit -s unlimited
+
+filename=run100
+cd $PBS_O_WORKDIR
+module load apps/QE
+
+if [ ! -f ${filename} ];
+then
+  echo "Catastrophic Failure. ${filename} does not exist."
+else
+  time ./$filename 
+fi

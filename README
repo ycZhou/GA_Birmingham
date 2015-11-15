@@ -1,0 +1,8 @@
+Make from inside top directory with:
+
+$ make clean
+$ make
+
+To make the manual:
+
+$ make doc

@@ -1,0 +1,6 @@
+natoms=3
+DFT_NW.in
+nclust=2
+ngen=1
+nels=1
+term=1

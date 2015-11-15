@@ -1,0 +1,13 @@
+natoms_a=10
+natoms_b=10
+file=Pd10Au10_1
+seed=13501
+gupta_PdAu.in
+nclust=10
+ngen=400
+nels=2
+processors=1
+term=5
+mate_2pt
+me_rate=0.4
+restart

@@ -1,0 +1,3255 @@
+
+Read input file : input_1
+
+Input OK, continuing with GA run
+
+Using DFT Calculations
+Number of atoms of type a =   7
+Number of atoms of type b =   1
+Restarting from previous coordinates 
+Number of clusters =  10
+Number of generations = 400
+Seed number = ***
+Using DEFAULT value for number of offspring of 0.8*nclust =  8
+Using DEFAULT mutation scheme 2
+Using DEFAULT value for mutation rate of 0.10
+GA will terminate if no change in population over   5 generations
+Using DEFAULT of roulette wheel selection
+Using tanh fitness relationship by DEFAULT
+Using DEFAULT 1 point weighted crossover
+Using DEFAULT mutation by cluster replacement
+Writing output to files named : Cu7Ag1.1
+ INSIDE READ DFT HERE
+ nproc is  
+         192
+ ntask is  
+          32
+ Reading coordinates from restart file
+ Generation :   0
+ Lowest Energy  =  -9338.263750
+ Highest Energy =  -9338.181000
+ Average Energy =  -9338.210765
+
+ Writing restart file ...... 
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 
+ not converged, leaving output_DFT.f
+ at end of outputDFT, indicator is
+           0
+ at end of outputDFT, iflag is
+ T
+ Calculation not converged!
+
+ Resubmit new Geometry!
+
+ writing new input file 

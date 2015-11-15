@@ -1,0 +1,224 @@
+#!/bin/bash
+
+# UPDATE BY ANDREW LOGSDAIL, 2009
+# This bash script has been set up for use with Gupta Potentials, and MM potentials
+# Please refer to manual should you want to use:
+# morse.in, MgO, ZnO, SiO_TTAM, SiO_FB
+#
+#
+# Number of processors we require
+# processors=1
+# Hopefully this will deal with segmentation faults in parallel
+#
+# This script file needs an input seed to run
+# Firstly please define if you are running this program on BLUEBEAR, HYPATIA or LOCAL
+location="LOCAL"
+#
+# Define Potential Type: A = Monometallic, AB = Bimetallic
+gupta_potentialtype=AB
+
+# Define Potential File
+potential="DFT_G09.in"
+
+# Define Elements for Atoms of Type A and B
+# Set atom B to "" for monometallic from monometallic potential,
+# else set desired element as defined below
+# 
+# N.B. These need to match your potential file, i.e. if you want a
+# monometallic cluster of element type B from your potential file,
+# you must define it as element type B here
+atom_a="Bi"
+atom_b=""
+
+# Define Number of Atoms of Type A and B
+# Set atom B to 0 for monometallic from monometallic potential,
+# else set desired elements as defined above
+n_a=3
+n_b=0
+
+# Number of Clusters
+n_nclust=10
+
+# Number of Generations per run
+n_ngen=400
+
+# Number of runs
+runfor=1
+
+# OPTIONAL FEATURES (For descriptions see Manual)
+# If not being used set to blank - This will turn them off/Assume defaults
+#
+# Number of Offspring produced per generation (If undefined default is 0.8 x Number of Clusters)
+# This value plus number of clusters must not exceed 100
+n_noff=
+# Termination Term (Number of runs with no change before GA terminates)
+n_term=5
+# Gmin (Default is 10e-6)
+n_gmin=
+# Mutation Scheme [Options 1 or 2(If undefined default)]
+n_mutation_scheme=
+# Mutation Rate (If undefined default is 0.1)
+n_mrate=
+# Remove (Set as 1 for on, blank for off)
+n_remove=
+# High Energy Mutants (Set as 1 for on, blank for off) 
+n_high_energy_mutants=
+# Selection Method [Either roulette (If undefined default) or tournament]
+n_selection=
+# Fitness Type [Either lin_fitness, pow_fitness, exp_fitness, tanh_fitness (If undefined default) or cos2_fitness]
+n_fitness=
+# Mating Type [ Either mate_1pt_random, mate_1pt_weighted (If undefined default for Bimetallic) or mate_2pt (If undefined default for Monometallic)]
+n_mating=
+# Mutation Type [ Either mutate_replace(If undefined default), mutate_rotate, mutate_move or mutate_exchange]
+n_mutation=
+# Mutate Exchange Total Swaps (Used to control number of mutate_exchanges,individually or accompnaying. Default = natoms/3)
+n_me_swaps=
+# Mutate Exchange Rate (If defined this will run alongside other mutation schemes with for bimetallics. Default = 0)
+n_me_rate=
+# Output Options (Can be write_clusters, write_energy or write_stats
+n_output=
+# Gupta Cutoff (Set as 1 for on, blank for off) - Remember this also needs cutoff_parameters file
+n_gupta_cutoff=
+# Restart (Set as 1 for on, blank for off) - popRestart must exist
+n_restart=
+
+# NOT CURRENTLY WORKING
+# Number of processors we require
+# processors=1
+
+# Hopefully this will deal with segmentation faults in parallel
+# Set stacksize to unlimited
+#ulimit -s unlimited
+
+srand=$RANDOM
+counter=0
+
+if [ "$gupta_potentialtype" = "A" ]; then
+  n_nels=1
+else
+  if [ "$gupta_potentialtype" = "AB" ]; then
+    n_nels=2
+  fi
+fi
+
+while [ $counter -lt $runfor ] ; do
+  ((counter=counter+1))
+  par_filename=input_${counter}
+
+  if [ "$gupta_potentialtype" = "A" ]; then
+
+    filename=${atom_a}${n_a}
+
+cat << EOF > $par_filename
+natoms=$n_a
+file=${filename}_${counter}
+seed=$srand
+$potential
+ngen=$n_ngen
+nclust=$n_nclust
+nels=$n_nels
+EOF
+
+  else
+    if [ $n_b -eq 0 ]; then
+      filename=${atom_a}${n_a}
+    else
+      if [ $n_a -eq 0 ]; then
+        filename=${atom_b}${n_b}
+      else
+        filename=${atom_a}${n_a}${atom_b}${n_b}
+      fi
+    fi
+
+cat << EOF > $par_filename
+natoms_a=$n_a
+natoms_b=$n_b
+file=${filename}_${counter}
+seed=$srand
+$potential
+nclust=$n_nclust
+ngen=$n_ngen
+nels=$n_nels
+EOF
+
+# REMOVED FROM ABOVE CAT
+# processors=$processors
+#
+
+  fi
+
+if [ $n_term ]; then
+  echo "term=$n_term"           >> $par_filename
+fi
+if [ $n_noff ]; then
+  echo "noff=$n_noff"           >> $par_filename
+fi
+if [ $n_gmin ]; then
+  echo "gmin=$n_gmin"           >> $par_filename
+fi
+if [ $n_mutation_scheme ]; then
+  echo "mutation_scheme=$n_mutation_scheme"      >> $par_filename
+fi
+if [ $n_mrate ]; then
+  echo "mrate=$n_mrate"         >> $par_filename
+fi
+if [ $n_remove ]; then
+  echo "remove"                 >> $par_filename
+fi
+if [ $n_high_energy_mutants ]; then
+  echo "high_energy_mutants"    >> $par_filename
+fi
+if [ $n_selection ]; then
+  echo "$n_selection"           >> $par_filename
+fi
+if [ $n_fitness ]; then
+  echo "$n_fitness"             >> $par_filename
+fi
+if [ $n_mating ]; then
+  echo "$n_mating"              >> $par_filename
+fi
+if [ $n_mutation ]; then
+  echo "$n_mutation"            >> $par_filename
+fi
+if [ $n_me_swaps ]; then
+  echo "me_swaps=$n_me_swaps"            >> $par_filename
+fi
+if [ $n_me_rate ]; then
+  echo "me_rate=$n_me_rate"            >> $par_filename
+fi
+if [ $n_output ]; then
+  echo "$n_output"              >> $par_filename
+fi
+if [ $n_gupta_cutoff ]; then
+  echo "cutoff_gupta"           >> $par_filename
+fi
+if [ $n_restart ]; then
+  echo "restart"           >> $par_filename
+fi
+
+if [ "$location" =  "LOCAL" ]; then
+
+    ./ga ${par_filename}  > outs_${counter}
+    #rm -f ${par_filename}
+    echo ${counter}
+
+elif [ "$location" = "HYPATIA" ]; then
+
+#    sed -e "s/run100/ga/g" -e "s/ppn=1/ppn=${processors}/g" -e "s/"'$filename'"/"'${filename}'" ${par_filename}/g" hypatia.script > outs_${counter}.sh
+    sed -e "s/run100/ga/g" -e "s/"'$filename'"/"'${filename}'" ${par_filename}/g" hypatia.script > outs_${counter}.sh
+    qsub outs_${counter}.sh
+    rm -f outs_${counter}.sh
+
+elif [ "$location" = "BLUEBEAR" ]; then
+
+#    sed -e "s/run100/ga/g" -e "s/ppn=1/ppn=${processors}/g" -e "s/"'$filename'"/"'${filename}'" ${par_filename}/g" bluebear.script > outs_${counter}.sh
+    sed -e "s/run100/ga/g" -e "s/"'$filename'"/"'${filename}'" ${par_filename}/g" bluebear.script > outs_${counter}.sh
+    qsub outs_${counter}.sh
+    rm -f outs_${counter}.sh
+
+fi
+
+  ((srand=srand+$RANDOM))
+
+done
+

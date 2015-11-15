@@ -1,0 +1,7 @@
+QE                       DFT Program
+1                        Number of elements
+"aprun -n 64 -N 32 pw.x" Submit command
+Cu                       Atom type a
+63.55                    Mass of atom a
+1.d-3                    GA convergence criteria
+3.20                     Mean bond length +10%
